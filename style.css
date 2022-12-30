@@ -1,0 +1,92 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: rgb(175, 185, 196);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #262626;
+  margin: 0;
+  padding: 0;
+
+}
+
+.swiper {
+  width: 900px;
+  height: 600px;
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-image: url(pictures/background.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 110px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  z-index: 100;
+}
+
+h1 {
+  font-family: 'La Belle Aurore', cursive;
+  color: rgb(117, 27, 24);
+  font-size: 50px;
+  font-weight: 400;
+  position: absolute;
+  top: -120px;
+  left: 300px;
+  text-decoration: underline;
+}
+
+span {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 100px;
+    background-color: rgba(187, 158, 158, 0.308);
+    padding: 5px;
+   
+}
+
+.swiper-slide img {
+  height: 400px;
+  width: 350px;
+  border-radius: 5px;
+  transition: transform .8s;
+  object-fit: cover;
+  object-position: bottom;
+  cursor: pointer;
+  margin-bottom: 90px;
+}
+
+.swiper-slide img:hover {
+  transform: scale(1.1);
+  
+}
+
+.swiper-slide .boo {
+  width: 250px;
+  object-fit: fill;
+
+}
+p {
+    text-align: justify;
+    color: rgb(248, 149, 145);
+    width: 400px;
+    line-height: 25px;
+    padding-right: 10px;
+    margin-bottom: 180px;
+    margin-left: -70px;
+   
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
